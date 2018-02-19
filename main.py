@@ -7,7 +7,7 @@ install('imageio')
 import tensorflow as tf
 import argparse
 import os
-from GAN_masked import InfectGAN
+from model import InfectGAN
 from shutil import copy
 
 parser = argparse.ArgumentParser(description='')
